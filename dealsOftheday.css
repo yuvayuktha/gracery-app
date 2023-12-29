@@ -1,0 +1,135 @@
+
+.containerdeals{
+    width: 290px;
+    height: 280px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(253, 253, 253);
+    background-image: url("https://grozo.s3.ap-south-1.amazonaws.com/Static+images/offer2.jpg");
+    
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.containerdeals:hover  .dealsDate{
+    
+    margin-top: -10px;
+    transition: 400ms;
+}
+.dealsimg{
+    background-image: url('');
+}
+.dealsDate{
+    position:relative;
+    top: 130px;
+    right: 5px;
+}
+ .dealsDate .dhms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dhms .date{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+    padding:10px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.date .num{
+  color:rgb(90, 240, 165);
+  font-size: 16px;
+  font-weight: bolder;
+}
+.date .txts{
+    color: gray;
+    font-weight: bolder; 
+    font-size: 14px; 
+}
+
+.dealscontant{
+    width: 230px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 23px;
+    padding: 0 10px 10px 10px ;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px gray;
+    position: relative;
+    left: 10px;
+}
+.dealscontant .snacks{
+  font-size: 14px;
+  color: gray;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+  
+}
+.dealscontant .seed{
+    font-size: 16px;
+    color: black;
+    margin-top: -20px;
+}
+.dealscontant .sta {
+    color: yellow;
+    font-size: 13px;
+    margin-top: -14px;
+}
+.dealscontant .sta i{
+    color: yellow;
+    font-size: 13px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+.dealscontant .pyy{
+    margin-top: -13px;
+    color:rgb(90, 240, 165);
+    font-size: 15px;
+    margin-bottom:50px;
+}
+.dealscontant .pyy span{
+    color: gray;
+    font-size: 13px;
+} 
+.dealscontant .pri{
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.dealscontant .pribtm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}.dealscontant .pribtm .p1{
+    color:rgb(90, 240, 165) ;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-right: 8px;
+}
+.dealscontant .pribtm .p2{
+   font-size: 14px;
+   text-decoration: line-through;
+}
+.pri a{
+    text-decoration: none;
+    color:rgb(248, 198, 195);
+    background-color: rgb(97, 221, 97);
+    padding: 3px 10px;
+    font-size: 14px;
+    border-radius: 0 10px 0 10px;
+}
+.pri a:hover{
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px 0 10px;
+    transition: 400ms;
+}
+

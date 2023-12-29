@@ -1,0 +1,172 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Quicksand','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* overflow-y: visible; */
+}
+
+/* ------------------ Navigation bar ------------ */
+body{
+    width: 98%;
+    margin-left: 10px;
+}
+/*  row1 */
+.container {
+    width: 98%;
+    height: auto;
+    margin-left: 15px;
+    position: fixed;
+
+}
+/* .menu-container{
+   
+
+} */
+ .menu-container .row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.row1 .search{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(48, 155, 105);
+    background-color: white;
+    padding:0 0;
+    border-radius: 5px;
+    margin-left: -20px;
+}
+.row1 .search:hover{
+    background-color: rgb(204, 204, 204);
+}
+.row1 .search input:hover{
+    background-color: rgb(204, 204, 204);
+}
+.row1 .search input{
+    outline: none;
+    border: none;
+    font-size:16px;
+    width: 100%;
+    height: 100%;
+    padding: 8px 15px;
+}
+.row1 .search  i{
+    color: gray;
+    font-size: 16px;
+}
+.row1 .search  i:hover {
+    background-color: white;
+    color: rgb(48, 155, 105);
+    height: 100%;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+.shop-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.shop-menu .contantshop{
+    margin-right: 10px;
+}
+.shop-menu .contantshop i{
+    font-size: 22px;
+    color: rgb(73, 72, 72);
+
+}
+.shop-menu .contantshop span{
+  font-weight: bold;
+  margin-left:-10px;
+  font-size: 13.5px;
+  
+
+}
+.shop-menu .contantshop span:hover{
+    color: rgb(48, 155, 105);
+}
+
+/* row2 */
+.row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border: .5px solid rgb(224, 221, 221);
+     box-shadow: .5px .5px .2px 1px rgb(224,221,221); 
+     padding: 20px 0;
+
+}
+.row2 .sidebar{
+    background-color: rgb(48, 155, 105);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+} 
+.row2 .sidebar  i{
+    color: white;
+}
+.row2 .sidebar a{
+    color: white;
+    width: fit-content;
+}
+.row2 .sidebar a,i{
+    font-size:19px;
+    width: fit-content;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: 10px 10px 10px 10px;
+}
+.row2 .sidebar .txtCon{
+   width: fit-content;  
+   font-size: 19px;
+   margin-left: -23px;
+}
+.row2 ul{ 
+    width: 750px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#fisrticon{
+ color: rgb(48, 155, 105);
+}
+.row2 ul li a{
+   text-decoration: none;
+   color: rgb(53, 51, 51);
+   font-weight: bold;
+   font-size: 15px;
+}
+.row2 ul li a:hover{
+    color: rgb(48, 155, 105);
+}
+.row2 .rightside{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+   padding-left: 30px;
+}
+.row2 .rightside .icon a i{
+    color: rgb(34, 30, 30);
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.row2 .rightside .para .max-1{
+    font-size: 25px;
+    color: rgb(48, 155, 105);
+    font-weight: bolder;
+}
+.row2 .rightside .para .max-2{
+  color: gray;
+}

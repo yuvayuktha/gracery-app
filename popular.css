@@ -1,0 +1,142 @@
+.popular{
+
+}
+
+.box{
+    width: 230px;
+    height: auto;
+    display: flex;
+    justify-content: center;align-items: center;
+    flex-direction: column;
+    border:1px solid rgb(197, 197, 197);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;  
+    margin-right: 20px; 
+
+}
+.box:hover{
+    box-shadow: 2px 2px 10px rgb(186, 248, 186);
+}
+.hot{
+    background-color: rgb(252, 111, 134);
+    color: white;
+    padding:1px 20px;
+    position:relative;
+    left: -81px;
+    border-radius: 20px 0 20px 0;  
+    
+}
+.box .img img{
+    width: 180px;
+    height: 180px;
+    transition:400ms;
+}
+.box .img img:hover{
+    width: 200px;
+    height: 200px;
+}
+.box .snack{
+    margin-left: -180px;
+    margin-top: -20px;
+    font-size: 14px;
+    color:gray;
+}
+.box .mypara{
+    margin-left: -39px;
+    margin-top: -5px;
+    font-size:14px;
+    font-weight: bolder;
+   
+}
+.box .start {
+    /* background-color: aqua; */
+     margin-left: -130px;
+    /*margin-top: -12px; */
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    
+}
+.box .start i{
+    padding: 0;
+    margin: 0;
+    font-size:13px;
+}
+.box .by{
+    margin-left: -130px;
+    margin-top: -4px;
+    color:rgb(139, 245, 187);
+    font-size: 14px;
+}
+.box .by span{
+ 
+   font-size: 12px;
+   color: gray;
+}
+.box .price{
+   width: 90%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 10px;
+}
+.box .price .price1{
+    font-weight: bolder;
+    color:rgb(139, 245, 187);
+    font-size: 16px;
+}
+.box .price .price2{
+    margin-left: -10px;
+    font-weight: bolder;
+    text-decoration: line-through;
+    font-size: 13px;
+}
+.box .price a{
+    margin-top: -10px;
+    margin-left: -10px;
+    background-color: rgb(209, 248, 225);
+    color: rgb(3, 231, 34);
+    text-decoration: none;
+    padding: 0 5px;
+    border: radius 8px;
+    border-radius: 15px 0 15px 0;
+    font-size: 14px;
+}
+.box .price a i{
+    font-size: 14px;
+}
+.box .price a:hover{
+    background-color: rgb(87, 226, 87);
+    transition: 400ms;
+    border-radius: 0 15px 0 15px;
+    font-weight: bolder;
+    color: white;
+}
+
+
+/* <!------------- Deals Of The Day-----------> */
+  .dealsofthe{
+    margin-top: 40px;
+  }
+  .headdeal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dealsofthe  .headdeal p:hover{
+    font-weight: bolder;
+    color:rgb(87, 226, 87) ;
+    margin-top: -7px;
+    transition: 400ms;
+}
+
+
+/* imges for deals oh the day */
+
+.dealcontainerimage{
+    margin-top: 40px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
